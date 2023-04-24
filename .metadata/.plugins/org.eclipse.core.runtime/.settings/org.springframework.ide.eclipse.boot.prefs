@@ -1,12 +1,12 @@
 eclipse.preferences.version=1
-org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=1
-org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=HelloWolrd
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=4
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=P05Usejsp
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=3.0.6
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Demo project for Spring Boot
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.study
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=17
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
-org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=HelloWolrd
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=P05Usejsp
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.springboot
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=war
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=GRADLE
