@@ -1,0 +1,11 @@
+package com.springboot.bean;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class Config {
+	//빈(bean): Spring이 IoC 방식으로 관리되는 객체
+	//빈 팩토리(BeanFactory):스프링의 IoC를 담당하는 컨테이너
+	//어플리케이션 컨텍스트(Application Context): 빈 팩토리를 확장한 IoC Container
+	
+}
