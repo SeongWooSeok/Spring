@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.study.springboot.dao.IBasicBbsDao">
+	<select id="listDao" resultType="com.study.springboot.dto.BasicBbsDto">
+		select * from basic_bbs order by id desc
+	</select>
+	<select id="viewDao" resultType="com.study.springboot.dto.BasicBbsDto">
+		select * from basic_bbs where id=#{0}
+	</select>
+<!-- 
+	<insert id="writeDao">
+		insert into basic_bbs(id,writer,title,content)
+		values(basic_bbs_seq.nextval,#{param1},#{param2},#{param3})
+	</insert>
+ -->
+	<insert id="writeDao" parameterType="java.util.HashMap">
+		<selectKey resultType="_int" keyProperty="id" order="BEFORE">
+			select basic_bbs_seq.nextval from dual
+		</selectKey>
+		insert into basic_bbs(id,writer,title,content)
+		values(#{id},#{writer},#{title},#{content})
+	</insert>
+	<delete id="deleteDao">
+		delete from basic_bbs where id=#{_id}
+	</delete>
+	<select id="postCount" resultType="_int">
+		select count(*) from basic_bbs
+	</select>
+</mapper>
