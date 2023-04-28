@@ -16,13 +16,14 @@ import jakarta.servlet.http.HttpServletResponse;
 
 @Configuration
 public class MyAuthenticationSuccessHandler implements AuthenticationSuccessHandler {
-
+	
 	@Autowired
 	AuthenticationUtils autils;
-	
+
 	@Override
-	public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response,
-			Authentication authentication) throws IOException, ServletException {
+	public void onAuthenticationSuccess(HttpServletRequest req, HttpServletResponse resp,
+			Authentication auth) throws IOException, ServletException {
+		
 		String target="/guest/welcome";
 		
 		List<String> authList = autils.getAuthorities();
@@ -34,6 +35,10 @@ public class MyAuthenticationSuccessHandler implements AuthenticationSuccessHand
 			target="/member/welcome";
 		}
 		
-		response.sendRedirect(target);
+		resp.sendRedirect(target);
+		
 	}
+
+	
+	
 }

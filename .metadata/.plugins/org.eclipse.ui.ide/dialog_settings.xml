@@ -55,9 +55,19 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\kosmo\Spring\P23Transactional"/>
+			<item value="C:\Users\kosmo\Spring\P22TransactionTemplate"/>
+			<item value="C:\Users\kosmo\Spring\P21TransactionManager"/>
+			<item value="C:\Users\kosmo\Spring\P20NoTranstion"/>
+			<item value="C:\Users\kosmo\Spring\P20NotTransction"/>
 			<item value="C:\Users\kosmo\Spring\P19SecurityDB"/>
-			<item value="C:\Users\kosmo\Spring\P18SecuritForm"/>
+			<item value="C:\Users\kosmo\Spring\P15Log"/>
+			<item value="C:\Users\kosmo\Spring\P14MyBatis"/>
+			<item value="C:\Users\kosmo\Spring\P13BasicBBS"/>
+			<item value="C:\Users\kosmo\Spring\P12JdbcTemp"/>
+			<item value="C:\Users\kosmo\Spring\P19WebSecurityConfig"/>
 			<item value="C:\Users\kosmo\Spring\P18SecurityForm"/>
+			<item value="C:\Users\kosmo\Spring\P18SecuritForm"/>
 			<item value="C:\Users\kosmo\Spring\P16Service"/>
 			<item value="C:\Users\kosmo\Spring\16Service"/>
 			<item value="C:\Users\kosmo\Desktop\P15Log"/>
@@ -65,7 +75,6 @@
 			<item value="C:\Users\kosmo\Desktop\P13BasicBBS"/>
 			<item value="C:\Users\kosmo\Desktop\P12JdbcTemp"/>
 			<item value="C:\Users\kosmo\Spring\P11UseValidAnnotation"/>
-			<item value="C:\Users\kosmo\Spring\P10UseValidationUtils"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
