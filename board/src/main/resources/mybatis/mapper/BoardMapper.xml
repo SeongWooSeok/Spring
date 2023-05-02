@@ -11,6 +11,7 @@
   		    <![CDATA[
   		    select * from tb1_board where bno > 0;
   		    ]]>
+  		    
   	</select>
   	
   </mapper>
