@@ -10,7 +10,7 @@
   	이스케이프하지 않고 포함하는 방법  bno > 0때문에 XML의 문자에는 "<", ">", "&", "'" 및 """"가 예약어 포함되서 CDATA로 덮어준것-->
   		    <![CDATA[
   		    select * from tb1_board where bno > 0;
-  		    ]]>
+  		    ]]>  
   		    
   	</select>
   	
